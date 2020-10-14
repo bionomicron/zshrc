@@ -3,6 +3,7 @@ Base and custom .zshrc files
 
 
 # Creating a new zshrc
+```
 
 1. `git clone https://github.com/tarjoilija/zgen.git "${HOME}/.zgen"`
 2. `git clone THIS_REPO_ADDRESS "${HOME}/.zshrc_base"`
