@@ -8,7 +8,6 @@ Base and custom .zshrc files
 2. `git clone THIS_REPO_ADDRESS "${HOME}/.zshrc_base"`
 3.
     ```
-    cd ${HOME}/.zshrc_base
     cp zshrc_template.sh zshrc_informative_name
-    ln -s zshrc_informative_name ${HOME}/.zshrc
+    ln -s ${HOME}/.zshrc_base/zshrc_informative_name ${HOME}/.zshrc
     ```
